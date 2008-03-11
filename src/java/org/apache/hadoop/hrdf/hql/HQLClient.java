@@ -22,9 +22,9 @@ package org.apache.hadoop.hrdf.hql;
 import java.io.Writer;
 
 import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.hql.generated.HQLParser;
-import org.apache.hadoop.hbase.hql.generated.ParseException;
-import org.apache.hadoop.hbase.hql.generated.TokenMgrError;
+import org.apache.hadoop.hrdf.hql.generated.HQLParser;
+import org.apache.hadoop.hrdf.hql.generated.ParseException;
+import org.apache.hadoop.hrdf.hql.generated.TokenMgrError;
 
 /**
  * HQL query language service client interfaces.

@@ -22,7 +22,6 @@ package org.apache.hadoop.hrdf.hql;
 import java.io.Writer;
 
 import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.Shell;
 
 public class ExitCommand extends BasicCommand {
   public ExitCommand(Writer o) {
