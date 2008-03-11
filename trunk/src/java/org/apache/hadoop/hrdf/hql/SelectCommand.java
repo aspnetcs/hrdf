@@ -33,13 +33,13 @@ import org.apache.hadoop.hbase.HConstants;
 import org.apache.hadoop.hbase.HScannerInterface;
 import org.apache.hadoop.hbase.HStoreKey;
 import org.apache.hadoop.hbase.HTableDescriptor;
-import org.apache.hadoop.hbase.Shell;
+import org.apache.hadoop.hrdf.client.HQL;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
 import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.filter.RowFilterInterface;
 import org.apache.hadoop.hbase.filter.StopRowFilter;
 import org.apache.hadoop.hbase.filter.WhileMatchRowFilter;
-import org.apache.hadoop.hbase.hql.generated.HQLParser;
+import org.apache.hadoop.hrdf.hql.generated.HQLParser;
 import org.apache.hadoop.hbase.io.Cell;
 import org.apache.hadoop.hbase.util.Writables;
 import org.apache.hadoop.io.Text;
@@ -156,7 +156,7 @@ public class SelectCommand extends BasicCommand {
         }
       }
 
-      if (count == 0 && Shell.HTML_OPTION != null) {
+      if (count == 0 && HQL.HTML_OPTION != null) {
         formatter.header(isMultiple() ? HEADER_COLUMN_CELL : null);
       }
       formatter.footer();
@@ -256,7 +256,7 @@ public class SelectCommand extends BasicCommand {
         results.clear();
       }
 
-      if (count == 0 && Shell.HTML_OPTION != null && !countFunction) {
+      if (count == 0 && HQL.HTML_OPTION != null && !countFunction) {
         formatter.header((parsedColumns.isMultiple()) ? HEADER : HEADER_ROW_CELL);
       }
 

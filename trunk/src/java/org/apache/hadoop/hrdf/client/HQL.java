@@ -41,7 +41,7 @@ import org.apache.hadoop.hrdf.hql.formatter.HtmlTableFormatter;
  * @see <a
  *      href="http://wiki.apache.org/lucene-hadoop/Hbase/HbaseShell">HbaseShell</a>
  */
-public class Shell {
+public class HQL {
   /** audible keyboard bells */
   public static final boolean DEFAULT_BELL_ENABLED = true;
   public static String IP = null;
