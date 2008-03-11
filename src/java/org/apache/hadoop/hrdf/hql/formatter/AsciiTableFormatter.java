@@ -20,7 +20,7 @@ package org.apache.hadoop.hrdf.hql.formatter;
 import java.io.IOException;
 import java.io.Writer;
 
-import org.apache.hadoop.hbase.hql.TableFormatter;
+import org.apache.hadoop.hrdf.hql.TableFormatter;
 
 
 /**

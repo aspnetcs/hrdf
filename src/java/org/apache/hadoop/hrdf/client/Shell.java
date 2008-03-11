@@ -25,6 +25,7 @@ import java.io.Writer;
 
 import jline.ConsoleReader;
 
+import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hrdf.hql.Constants;
 import org.apache.hadoop.hrdf.hql.HQLClient;
 import org.apache.hadoop.hrdf.hql.HQLSecurityManager;
