@@ -28,10 +28,8 @@ import java.util.HashMap;
 import java.io.StringReader;
 import java.io.Reader;
 import java.io.Writer;
-import java.net.URLEncoder;
-import java.io.UnsupportedEncodingException;
 
-import org.apache.hadoop.hbase.hql.*;
+import org.apache.hadoop.hrdf.hql.*;
 
 /**
  * Parsing command line.
