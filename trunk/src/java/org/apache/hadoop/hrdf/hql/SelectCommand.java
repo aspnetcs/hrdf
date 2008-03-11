@@ -34,15 +34,15 @@ import org.apache.hadoop.hbase.HScannerInterface;
 import org.apache.hadoop.hbase.HStoreKey;
 import org.apache.hadoop.hbase.HTableDescriptor;
 import org.apache.hadoop.hbase.Shell;
+import org.apache.hadoop.hbase.client.HBaseAdmin;
+import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.filter.RowFilterInterface;
 import org.apache.hadoop.hbase.filter.StopRowFilter;
 import org.apache.hadoop.hbase.filter.WhileMatchRowFilter;
 import org.apache.hadoop.hbase.hql.generated.HQLParser;
+import org.apache.hadoop.hbase.io.Cell;
 import org.apache.hadoop.hbase.util.Writables;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.hbase.client.HTable;
-import org.apache.hadoop.hbase.client.HBaseAdmin;
-import org.apache.hadoop.hbase.io.Cell;
 
 /**
  * Selects values from tables.
