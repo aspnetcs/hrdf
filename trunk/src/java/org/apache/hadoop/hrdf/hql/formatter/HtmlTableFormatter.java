@@ -22,7 +22,7 @@ import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 
-import org.apache.hadoop.hbase.hql.TableFormatter;
+import org.apache.hadoop.hrdf.hql.TableFormatter;
 import org.znerd.xmlenc.LineBreak;
 import org.znerd.xmlenc.XMLOutputter;
 import org.znerd.xmlenc.XMLEncoder;

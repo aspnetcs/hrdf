@@ -22,7 +22,7 @@ package org.apache.hadoop.hrdf.hql;
 import java.io.IOException;
 import java.io.Writer;
 
-import org.apache.hadoop.hbase.hql.formatter.AsciiTableFormatter;
+import org.apache.hadoop.hrdf.hql.formatter.AsciiTableFormatter;
 
 /**
  * Interface implemented by table formatters outputting select results.
