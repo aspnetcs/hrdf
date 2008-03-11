@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.hadoop.hbase.hql;
+package org.apache.hadoop.hrdf.hql;
 
 public class ExitException extends SecurityException {
   private static final long serialVersionUID = -8085525076856622991L;
