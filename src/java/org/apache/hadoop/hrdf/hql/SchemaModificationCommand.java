@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.hadoop.hbase.hql;
+package org.apache.hadoop.hrdf.hql;
 
 import java.io.Writer;
 import java.util.Map;
